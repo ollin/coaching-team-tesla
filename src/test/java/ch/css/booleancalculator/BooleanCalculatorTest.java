@@ -120,7 +120,7 @@ public class BooleanCalculatorTest {
  *
  * 4.) OR Operator  "TRUE OR FALSE" -> true "FALSE OR FALSE" -> false
  *
- * 5.) Beliebige Anzahl von AND und OR Operatoren, NOT hat Vorrang vor AND und OR  "TRUE OR TRUE OR TRUE AND FALSE" -> true "TRUE OR FALSE AND NOT FALSE" -> true
+ * 5.) Beliebige Anzahl von AND und OR Operatoren, NOT wird zuerst ausgewertet, dann AND und zuletzt OR  "TRUE OR TRUE OR TRUE AND FALSE" -> true "TRUE OR FALSE AND NOT FALSE" -> true 
  *
  * 6.) Klammern  "(TRUE OR TRUE OR TRUE) AND FALSE" -> false "NOT (TRUE AND TRUE)" -> false
  *
@@ -139,9 +139,9 @@ public class BooleanCalculatorTest {
  *  NOT
  * |_OR
  *  |_OR  
- *  |  |_TRUE
- *  |  |_TRUE
- *  |_AND
- *     |_TRUE
- *     |_FALSE
+ *  |  |_TRUE 
+ *  |  |_TRUE 
+ *  |_AND 
+ *     |_TRUE 
+ *     |_FALSE 
  **/
