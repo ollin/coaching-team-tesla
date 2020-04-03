@@ -1,10 +1,7 @@
 package ch.css.booleancalculator;
 
-import java.text.ParseException;
 import java.util.Arrays;
 import java.util.List;
-
-import ch.css.booleancalculator.Element.False;
 
 public class BooleanCalculator {
     

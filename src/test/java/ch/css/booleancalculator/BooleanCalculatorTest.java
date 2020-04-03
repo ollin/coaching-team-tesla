@@ -3,7 +3,6 @@ package ch.css.booleancalculator;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.text.ParseException;
 import java.util.Arrays;
 import java.util.List;
 
